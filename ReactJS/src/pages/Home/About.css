@@ -1,0 +1,54 @@
+.btn_about {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: rgb(205, 134, 63);
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.btn_about:hover {
+    color: #001F3F;
+    background-color: rgb(205, 134, 63);
+}
+
+.Store_all {
+    background-image: url("../About/images/pic2.jpg");
+    width: 97%;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.store_content {
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+.title_store {
+    color: #fff;
+    padding-top: 140px;
+}
+
+.content_store {
+    font-family: 'Lato', sans-serif;
+    /*     color: #e6e6fa; */
+    color: #fff;
+}
+
+.store_image {
+    width: 40%;
+    text-align: center;
+    float: right;
+}
+
+.store_image img {
+    width: 50%;
+    margin-top: 20%;
+}

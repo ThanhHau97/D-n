@@ -1,0 +1,58 @@
+.text-product {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.order_product {
+    line-height: 30px;
+}
+
+.text-left {
+    float: right;
+}
+
+.outfix {
+    width: 160px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btn_order_status {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: rgb(205, 134, 63);
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.btn_order_status:hover {
+    color: #001F3F;
+    background-color: rgb(205, 134, 63);
+}
+
+.btn_order_status_cancel {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: rgb(233, 57, 66);
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.btn_order_status_cancel:hover {
+    color: #001F3F;
+    background-color: rgb(233, 57, 66);
+}

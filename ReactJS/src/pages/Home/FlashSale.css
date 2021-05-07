@@ -1,0 +1,100 @@
+.btn_Falshsale {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: rgb(205, 134, 63);
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.btn_Falshsale:hover {
+    color: #001F3F;
+    background-color: rgb(205, 134, 63);
+}
+
+.card_product {
+    height: 450px;
+}
+
+.card_highlight_div {
+    width: 16.5rem;
+    position: relative;
+}
+
+.price {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.product {
+    color: orange;
+    font-weight: bold;
+}
+
+.IconProduct {
+    margin: 0 auto;
+    margin-left: 40px;
+    font-size: 20px;
+    color: cyan;
+}
+
+.star-rating li {
+    padding: 0;
+}
+
+.list-inline-item {
+    font-size: 14px;
+    color: #ffc000;
+}
+
+.card_highlight_div .reveal {
+    position: absolute;
+    bottom: 135px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    background-color: rgb(205, 134, 63);
+    width: 85%;
+    text-align: center;
+}
+
+.card_highlight_div:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 10;
+    height: 40px;
+    transition: opacity 1s ease;
+}
+
+.add_to_cart {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgb(205, 134, 63);
+}
+
+.add_to_cart:focus {
+    outline: none;
+    border: none;
+}
+
+.add_to_cart:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nofitication {
+    margin-top: 50px;
+}

@@ -1,0 +1,97 @@
+.btn_store {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: rgb(205, 134, 63);
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.btn_store:hover {
+    color: #001F3F;
+    background-color: rgb(205, 134, 63);
+}
+
+#store {
+    background: #fff;
+    margin-left: 8px;
+}
+
+#store .member {
+    text-align: center;
+    background: #000;
+    position: relative;
+}
+
+#store .member .member-info {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+
+#store .member .member-info-content {
+    margin-top: -50px;
+    transition: margin 0.2s;
+}
+
+#store .member:hover .member-info {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#store .member:hover .member-info-content {
+    margin-top: 0;
+    transition: margin 0.4s;
+}
+
+#store .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#store .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+
+#store .member .social {
+    margin-top: 15px;
+}
+
+#store .member .social a {
+    transition: none;
+    color: #fff;
+}
+
+#store .member .social a:hover {
+    color: #18d26e;
+}
+
+#store .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.store_coffeeson {
+    width: 200px;
+    margin-left: 25px;
+    margin: 0 auto;
+}

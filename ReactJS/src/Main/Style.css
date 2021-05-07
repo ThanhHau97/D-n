@@ -1,0 +1,127 @@
+/* HEADER */
+
+.header_div {
+    background-color: #000;
+    height: 70px;
+    align-items: center
+}
+
+.item_name {
+    color: #fff;
+}
+
+.item-menu {
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.item-menu:hover {
+    text-decoration: none;
+    color: rgb(205, 134, 63);
+    transition: .3s;
+}
+
+.header-borderEffect:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0px;
+    background: rgb(205, 134, 63);
+    transition: width .3s ease, background-color .3s ease;
+}
+
+.header-borderEffect:hover:after {
+    width: 100%;
+    background: rgb(205, 134, 63);
+}
+
+
+/* Icon */
+
+.cart-icon {
+    font-size: 24px;
+    color: white;
+    background: none;
+    border-style: none;
+    margin-left: 60px;
+}
+
+.cart-icon:hover {
+    color: yellow;
+}
+
+.cart-number {
+    position: absolute;
+    bottom: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.cart-number:hover {
+    background-color: rgb(205, 134, 63);
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+/* -------------------FOOTER---------------------- */
+
+#footer {
+    background-color: #000;
+}
+
+.title_footer {
+    color: #fff;
+}
+
+.store-title {
+    color: #fff;
+}
+
+.contact_customer {
+    width: 25%;
+}
+
+.hotline {
+    font-size: 14px;
+    color: #fff;
+}
+
+.small-text {
+    font-size: 13px;
+    line-height: 2.05;
+    color: #fff;
+}
+
+.tiki_me {
+    width: 25%;
+    justify-content: center;
+}
+
+.doitac {
+    width: 25%;
+    justify-content: center;
+}
+
+.paywallet {
+    width: 25%;
+    justify-content: center;
+}
+
+.connect_me {
+    width: 25%;
+    justify-content: center;
+}
+
+.icons {
+    margin-left: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,16 @@
+.nav_a {
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    background-color: transparent!important;
+}
+
+.nav_a:focus {
+    background-color: rgb(205, 134, 63)!important;
+}
+
+.nav_a:hover {
+    color: #fff!important;
+    margin-top: 10px;
+    background-color: rgb(205, 134, 63)!important;
+}

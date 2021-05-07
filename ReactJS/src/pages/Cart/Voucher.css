@@ -1,0 +1,446 @@
+hr {
+    border: solid 1px rgb(205, 134, 63);
+}
+
+#timkiem {
+    margin-left: -15px;
+    width: 606px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border: solid 1px rgb(205, 134, 63);
+}
+
+.themvaogiohang {
+    color: white;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+.themvaogiohang {
+    padding-top: 5px;
+    margin-left: 23px;
+    width: 120px;
+    /* margin-right: -15px; */
+    text-align: center;
+    border: solid 1px rgb(205, 134, 63);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(205, 134, 63);
+}
+
+.themvaogiohang:hover {
+    background-color: rgb(175, 105, 35);
+    border: solid 1px rgb(175, 105, 35);
+}
+
+#input_icon_delete {
+    margin-bottom: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.phuongthucthanhtoan {
+    font-size: 16px;
+}
+
+.img_phuongthucthanhtoan {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+#soluong,
+#makhuyenmai {
+    height: 25px;
+    font-family: Arial;
+}
+
+#chonmakhuyenmai {
+    text-decoration: none;
+}
+
+#chonmakhuyenmai_div {
+    float: right;
+    height: 30px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 5px;
+    padding-top: 3px;
+    margin-top: -3px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(205, 134, 63);
+}
+
+#chonmakhuyenmai div:hover {
+    background-color: rgb(175, 105, 35);
+}
+
+.khuyenmai {
+    font-weight: bold;
+}
+
+.tongtien {
+    color: rgb(175, 105, 35);
+    font-weight: bold;
+}
+
+.sanpham-giohang-scroll {
+    margin-bottom: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow-y: scroll;
+    max-height: 400px;
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+}
+
+.sanpham-giohang {
+    font-size: 14px;
+    max-width: 725px;
+    margin-right: -20px;
+    margin-top: 5px;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(175, 105, 35);
+    border-style: solid;
+    background: #fff;
+}
+
+#divxacnhan {
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+#diachi,
+#hoten,
+#sodienthoai,
+#ghichu {
+    border: solid 1px rgb(205, 134, 63);
+}
+
+#divthanhtoan {
+    box-shadow: 2px 2px 5px rgb(75, 75, 75);
+    font-size: 14px;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+#thanhtoan {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(205, 134, 63);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}
+
+#thanhtoan:hover {
+    background-color: rgb(175, 105, 35);
+}
+
+.divtablegiohang {
+    margin-top: -15px;
+}
+
+.divtablegiohang table {
+    border-top-style: hidden;
+}
+
+.divtablegiohang table button {
+    border-style: none;
+    background: none;
+    font-weight: bold;
+    color: rgb(205, 134, 63);
+}
+
+.divtablegiohang table button:hover {
+    color: rgb(175, 105, 35);
+}
+
+#giohang-hinhsanpham {
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+#giohang-size label {
+    margin-left: 5px;
+}
+
+#giohang-ghichu {
+    margin-right: 30px;
+    border: solid 1px rgb(205, 134, 63);
+}
+
+#giohang-soluong {
+    font-size: 16px;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+    border: solid 1px rgb(205, 134, 63);
+    background-color: whitesmoke;
+}
+
+.btn-soluong-cong,
+.btn-soluong-tru {
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.btn-soluong-cong div,
+.btn-soluong-tru div {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(205, 134, 63);
+}
+
+.btn-soluong-cong div:hover {
+    background-color: rgb(175, 105, 35);
+}
+
+.btn-soluong-tru div:hover {
+    background-color: rgb(175, 105, 35);
+}
+
+.btn-soluong-cong div {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-soluong-tru div {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.radio-size[type="radio"] {
+    display: none;
+}
+
+.radio-size[type="radio"]+label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    margin-right: 5px;
+    background-clip: content-box;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+}
+
+.radio-size[type="radio"]:checked+label:before {
+    background-color: rgb(205, 134, 63);
+}
+
+.radio-phuongthucthanhtoan[type="radio"] {
+    display: none;
+}
+
+.radio-phuongthucthanhtoan[type="radio"]+img+label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    margin-right: 5px;
+    background-clip: content-box;
+    border: 2px solid #bbb;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked+img+label:before {
+    background-color: rgb(205, 134, 63);
+}
+
+.popup-body {}
+
+.voucher-nhapVoucher-div {
+    margin: 15px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+#voucher-input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border: solid 1px rgb(205, 134, 63);
+}
+
+#voucher-apdung-button {
+    color: white;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+#voucher-apdung-button div {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 6px;
+    text-align: center;
+    border: solid 1px rgb(205, 134, 63);
+    border-radius: 3px;
+    background-color: rgb(205, 134, 63);
+}
+
+#voucher-apdung-button div:hover {
+    background-color: rgb(175, 105, 35);
+    border: solid 1px rgb(175, 105, 35);
+}
+
+.my-modal-voucher {
+    max-width: 600px;
+}
+
+.voucher-scroll {
+    overflow-y: scroll;
+    margin: 15px;
+    max-height: 300px;
+}
+
+.voucher {
+    margin: 20px;
+    box-shadow: 1px 1px 5px rgb(150, 150, 150);
+}
+
+
+/* .voucher:hover {
+    margin: 20px;
+    box-shadow: 1px 1px 10px rgb(100, 100, 100);
+} */
+
+.voucher-tieude {
+    padding-top: 30px;
+    background-color: rgb(205, 134, 63);
+    color: white;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: rgba(0, 0, 0, 0.20);
+}
+
+.voucher-tieude p {
+    font-size: 14px;
+}
+
+.voucher-noidung p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.voucher-checkbox-div {
+    padding-top: 40px;
+}
+
+.voucher-checkbox[type="checkbox"] {
+    display: none;
+}
+
+.voucher-checkbox[type="checkbox"]+label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 1px;
+    margin-right: 5px;
+    background-clip: content-box;
+    border-radius: 50px;
+    border: 2px solid #bbb;
+}
+
+.voucher-checkbox[type="checkbox"]:only-child+label:before {
+    background-color: rgb(205, 134, 63);
+}
+
+.voucher-ok-button {
+    height: 40px;
+    width: 150px;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(205, 134, 63);
+    text-decoration: none !important;
+    color: white;
+}
+
+.voucher-ok-button:hover {
+    color: white;
+    background-color: rgb(175, 105, 35);
+}
+
+.voucher-cancel-button {
+    height: 40px;
+    width: 150px;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(120, 120, 120);
+    color: rgb(120, 120, 120);
+}
+
+.voucher-cancel-button:hover {
+    color: white;
+    background-color: rgb(120, 120, 120);
+    border-color: rgb(120, 120, 120);
+}
+
+.sanpham-giohang-hr {
+    margin-bottom: 20px;
+    border-color: rgb(175, 105, 35);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+#amout-bag {
+    width: 60px;
+    text-align: center;
+}
+
+.search-bar-dropdown {
+    width: 45.6em;
+    margin-left: -30px;
+}
+
+.messmodal {
+    color: #636363;
+    width: 300px;
+    font-size: 14px;
+    margin-top: 200px;
+    height: 200px;
+}
+
+.messmodal .icon-boxx i {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    margin-left: 5px
+}
+
+.caption {
+    margin-top: 50px;
+}
+
+.icon-boxx {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 8;
+    background: red;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,30 @@
+.search_button_ul {
+    width: 255px;
+    margin-left: 15px;
+    z-index: 0;
+}
+
+.input_search {
+    width: 255px;
+    margin-left: 15px;
+}
+
+.price_detail {
+    margin-left: 180px;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button_detail {
+    margin-left: 180px;
+}
+
+.name_detail {
+    margin-top: 130px;
+    margin-left: -50px;
+}
+
+.hotro {
+    margin-left: 140px;
+}

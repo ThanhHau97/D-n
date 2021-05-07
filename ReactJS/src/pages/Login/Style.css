@@ -1,0 +1,280 @@
+#header-dangnhap {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    color: yellow;
+}
+
+#header-dangnhap:hover {
+    color: white;
+}
+
+.icon-login {
+    height: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.form-group {
+    position: relative;
+    padding-top: 10px;
+}
+
+.div-submit {
+    padding-top: 20px;
+}
+
+.link_login {
+    color: yellow;
+}
+
+#input_img_username {
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    opacity: 60%;
+}
+
+#input_img_password {
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    opacity: 60%;
+}
+
+.input-dangnhap-dangky {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    height: 40px;
+    font-size: 13px;
+    font-family: Arial;
+    font-style: italic;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+
+/*   #div-ngaysinh select{
+      font-size: 13px;
+      font-family: Arial;
+      background-color: whitesmoke;
+        width: 120px !important;
+    } */
+
+#forgot-sodienthoai {
+    height: 100%;
+    padding-top: 5px;
+    color: rgb(175, 105, 35);
+    background-color: whitesmoke;
+    text-align: center;
+    border: solid 1px rgb(200, 200, 200);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    transition: background-color 0.3s;
+}
+
+#forgot-btn-guima {
+    text-decoration: none !important;
+}
+
+#forgot-btn-guima div {
+    height: 100%;
+    padding-top: 5px;
+    margin-left: -31px;
+    color: rgb(175, 105, 35);
+    text-align: center;
+    border: solid 1px rgb(200, 200, 200);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#forgot-btn-guima div:hover {
+    height: 100%;
+    padding-top: 5px;
+    margin-left: -30px;
+    font-weight: bold;
+    border-color: rgb(205, 134, 63);
+    background-color: rgb(205, 134, 63);
+    color: white;
+}
+
+#maxacnhan,
+#forgot-maxacnhan,
+#forgot-matkhau,
+#forgot-nhaplaimatkhau {
+    background-color: whitesmoke;
+}
+
+.forgotpassword {
+    text-decoration: none !important;
+    color: black;
+    float: right;
+}
+
+.forgotpassword:hover {
+    color: rgb(175, 105, 35);
+}
+
+.forgot-submit-button {
+    height: 40px;
+    font-weight: bold;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(205, 134, 63);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(205, 134, 63);
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.form-submit-button {
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    padding-top: 7px;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(205, 134, 63);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(205, 134, 63);
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.form-submit-button:hover,
+.forgot-submit-button:hover {
+    color: white;
+    border-color: rgb(205, 134, 63);
+    background-color: rgb(175, 105, 35);
+}
+
+.loginWith {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 80%;
+}
+
+.form-check-input[type="checkbox"] {
+    display: none;
+}
+
+.form-check-input[type="checkbox"]+label:before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+    margin-right: 5px;
+    background-clip: content-box;
+    border: 2px solid #bbb;
+}
+
+.form-check-input[type="checkbox"]:checked+label:before {
+    background-color: rgb(205, 134, 63);
+}
+
+#nav-tab {
+    justify-content: center;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    color: rgb(175, 105, 35);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+#dangKySoDienThoai {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: whitesmoke;
+}
+
+#dangKy-btn-guima {
+    text-decoration: none !important;
+}
+
+#dangKy-btn-guima div {
+    height: 100%;
+    padding-top: 5px;
+    margin-left: -30px;
+    color: rgb(175, 105, 35);
+    text-align: center;
+    border: solid 1px rgb(200, 200, 200);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#dangKy-btn-guima div:hover {
+    height: 100%;
+    padding-top: 5px;
+    margin-left: -30px;
+    font-weight: bold;
+    background-color: rgb(205, 134, 63);
+    border: solid 1px rgb(205, 134, 63);
+    color: white;
+}
+
+.div_body_dangki {
+    padding-bottom: 28px;
+}
+
+.modal_cane {
+    width: 500vw;
+}
+
+.Forgot {
+    float: right;
+}
+
+.link_forgot {
+    color: #bbb;
+}
+
+.link_forgot:hover {
+    color: rgb(205, 134, 63);
+}
+
+
+/* ---------------LOGIN------------ */
+
+.messmodal {
+    color: #636363;
+    width: 325px;
+    font-size: 14px;
+    margin-top: 200px;
+    height: 200px;
+}
+
+.messmodal .icon-box i {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    margin-left: 5px
+}
+
+.icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #82ce34;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
